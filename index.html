@@ -7,15 +7,63 @@
 </head>
 <body>
 
-    <p class="first"> Test, dette er en test</p>
-    <p class="second"> Ariel</p>
 
-    <main>
 
-        <p> Dette er en main section</p>
+    <nav class="navbar">
+        <ul>
+            <a href="index.html">Hjem</a>
+            <a href="#">CV</a>
+            <a href="projects.html">Projekter</a>
+        </ul>
+    </nav>
+    <hr> <!-- horizontal linje -->
 
+
+
+    <p id="velkommen">Min portfolio</p>
+
+    <main class="main">
+
+        <img class="billede" src="data:image/png;base64,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" alt="billede">
+
+        <p id="main-text">Hej, jeg hedder Oliver Folkersen og jeg er 22 år gammel.
+            Jeg er i gang med at uddanne mig til datamatiker, og jeg har
+            en stor passion for IT og teknologi.
+            Jeg har også en stor interesse for programmering
+            og softwareudvikling, og jeg håber at kunne arbejde med det i fremtiden.</p>
 
     </main>
+
+    <hr>
+    <section>
+
+
+
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <section class= "footer-section">
+        <p id="footer-first">Copyright® All rights reserved</p>
+        <p id="footer-second">Oliver Folkersen</p>
+        <p id="footer-third">Sociale medier</p>
+        </section>
+    </footer>
+
 
 
 </body>

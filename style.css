@@ -1,9 +1,65 @@
 .first{
     color: red;
-    font-family: "Times New Roman";
+    font-family: "Times New Roman", Times, serif;
 }
 
-.second{
-    color: blue;
-    font-family: "Arial";
+
+
+.navbar{
+    display: flex;
+    justify-content: flex-start;
+    align-content: space-between;
+}
+
+.main{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.billede{
+    display: inline-flex;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+#velkommen{
+    display: flex;
+    justify-content: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+}
+
+#main-text{
+    display: flex;
+    justify-content: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+}
+
+.footer-section{
+    background-color: black;
+    color: white;
+    display: flex;
+
+    justify-content: space-between;
+    padding: 10px;
+}
+#footer-first{
+
+    display: inline-flex;
+    justify-content: flex-start;
+}
+
+#footer-second{
+    display: inline-flex;
+    justify-content: center;
+}
+
+#footer-third{
+    display: inline-flex;
+    justify-content: flex-end;
+
 }
