@@ -1,4 +1,9 @@
 .first{
     color: red;
+    font-family: "Times New Roman";
+}
 
+.second{
+    color: blue;
+    font-family: "Arial";
 }
